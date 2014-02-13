@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Inci '14</title>
+    <title>Incident 2014</title>
     <script src="js/jquery.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/inci.js"> </script>
@@ -19,11 +19,9 @@
 	top: 0; bottom: 0; left: 0; right: 0;
 background: url('images/output.gif');
 background-repeat: no-repeat;
-
 background-size: 100%;
- 
 
-      }
+       }
       @font-face
       {
         font-family: 'inci';
@@ -129,13 +127,27 @@ background-size: 100%;
     width: 800px;
     height: 650px;
   }
+  .reliance
+  {
+    position: fixed;
+    z-index:1000;
+    width: 10%;
+    height: 10%;
+    background-image: url('images/ril.png');
+    margin-top: 15%;
+    margin-left: 31%;
+    background-size: 100%;
+
+
+  }
+  
   #topbar
   {
     position: fixed;
     z-index: 1000;
-    width: 40%;
+    width: 50%;
     height: 50px;
-    margin-left: 55%;
+    margin-left: 45%;
     background-color: rgba(148,151,153,0.2);
 
   }
@@ -149,7 +161,7 @@ background-size: 100%;
 
     color: white;
     float: right;
-    margin-right: 5%;
+    margin-right: 7%;
     
   }
   #topbar ul li:hover
@@ -182,16 +194,19 @@ h2
   </head>
   <body>
     <div id="room-container">
+      <div class="reliance"></div>
+       
       <div id="topbar">
         <ul>
           <li class="registration"><a href="#">Registration</a></li>
-          <li class="contactus"><a href="#">Contact Us</a></li>
+          <li class="contactus"><a href="contactus.html">Contact Us</a></li>
           <li class="accomodation"><a href="#">Accomodation</a></li>
           <li class="sponsors"><a href="#">Sponsors</a></li>
           <li class="aboutus"><a href="#">About Us</a></li>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
         </ul>
       </div>
+
       <div class="wall" id="bottom">
 
 
@@ -224,16 +239,16 @@ h2
 
 <div class = "row">
 <div class = "cell clickme sportsfest" id="tog3">
-  <h2 style="font-size:70px;">Sports Fest</h2>
+  <h2 style="font-size:90px;">Sports</h2>
 </div>
 <div class = "cell clickme workshop" id="tog2">
   <h2 style="">Workshop</h2>
 </div>
-<div class = "cell clickme incispecial" id="tog1">
-  <h2 style="font-size:70px;">Inci Special</h2>
+<div class = "cell" id="tog1">
+  <h2 style="font-size:80px;margin-left:40px;">Inci Special</h2>
 </div>
-<div class = "cell clickme icare" id="tog4">
-    <h2 style="font-size:80px;">I-care</h2>
+<div class = "cell" id="tog4">
+    <h2 style="font-size:80px;">I - care</h2>
 </div>
 
 </div>
@@ -260,18 +275,18 @@ h2
 
       </div>
 
-      <div class="wall" id="left"></div>
-      <div class="wall" id="right"></div>
+   <!--   <div class="wall" id="left"></div>-->
+<!--      <div class="wall" id="right"></div>-->
       <div class="wall" id="back"></div>
       <!--<div class="wall" id="front"></div>-->
     </div>
     <div id="popup1"><div id="modal">
 
-  <iframe src="events.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
+  <iframe src="events/hautecoutre.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
 </div></div>
 <div id="popup2"><div id="modal">
 
-  <iframe src="pronites.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
+  <iframe src="pronites/encore.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
 </div></div>
 <div id="popup3"><div id="modal">
 
@@ -291,11 +306,11 @@ h2
 </div></div>
 <div id="popup7"><div id="modal">
 
-  <iframe src="workshop.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
+  <iframe src="workshop/cartoon.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
 </div></div>
 <div id="popup8"><div id="modal">
 
-  <iframe src="sportsfest.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
+  <iframe src="sportsfest/slamdunk.html" style="width:145%;height:110%;margin-left:-24%;" scrolling="yes"></iframe>
 </div></div>
 <div id="popup9"><div id="modal">
 
