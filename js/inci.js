@@ -11,7 +11,8 @@
 		  if (rot[i] != 0) {
 		     transf += ' rotate' + axes[i] + '( ' + rot[i] + 'deg )';
 		  }
-
+		}
+		for (var i=0; i<3; i++) {
 		  if (move[i] != 0) {
 		     transf += ' translate' + axes[i] + '( ' + move[i] + 'px )';
 		  }
